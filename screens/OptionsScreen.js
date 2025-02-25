@@ -6,7 +6,7 @@ import { View, Text, Button, StyleSheet } from 'react-native';
 const OptionsScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Welcome to CoffeeCert</Text>
+      <Text style={styles.title}>Welcome to AgriNova</Text>
       <Button title="Soil Information Form" onPress={() => navigation.navigate('Form')} />
       <Button title="Certification Assistant" onPress={() => navigation.navigate('Chat')} />
     </View>

@@ -17,7 +17,7 @@ export default function LoginScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Image source={require('./../assets/logo.png')} style={styles.logo} />
-      <Text style={styles.title}>MindClusive</Text>
+      <Text style={styles.title}>AgriNova</Text>
       <TextInput
         style={styles.input}
         placeholder="Email"
