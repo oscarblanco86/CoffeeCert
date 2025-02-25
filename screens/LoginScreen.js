@@ -8,7 +8,7 @@ export default function LoginScreen({ navigation }) {
 
   const handleLogin = () => {
     if (email === VALID_EMAIL && password === VALID_PASSWORD) {
-      navigation.navigate('MainMenu'); // Navigate if correct
+      navigation.navigate('Options'); // Navigate if correct
     } else {
       Alert.alert('Invalid Credentials', 'Please check your email and password.');
     }
